@@ -1,0 +1,10 @@
+.card-custom {
+    background-color: #D53F8C; /* Correspond à pink.700 de Chakra UI */
+    color: white;
+  }
+  
+  .card-custom .nav-tabs .nav-link.active {
+    background-color: #B83280; /* Une couleur plus foncée pour l'onglet actif */
+    color: white;
+  }
+  

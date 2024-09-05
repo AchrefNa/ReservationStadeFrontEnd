@@ -1,0 +1,40 @@
+.demande-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demande-btn:hover {
+    background-color: darkblue;
+  }
+  
+  .demande-btn.demande-envoyee {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .demande-btn:disabled {
+    cursor: not-allowed;
+  }
+  .cancel-btn {
+    background-color: #dc3545; /* couleur de fond */
+    color: #fff; /* couleur du texte */
+    border: none; /* pas de bordure */
+    padding: 10px 20px; /* espacement intérieur */
+    font-size: 16px; /* taille de la police */
+    cursor: pointer; /* curseur pointer */
+    border-radius: 5px; /* bordure arrondie */
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333; /* couleur de fond au survol */
+  }
+  
+  
+  
